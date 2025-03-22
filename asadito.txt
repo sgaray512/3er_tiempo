@@ -3,5 +3,7 @@ la lista es
 carne 
 pan 
 tomate
-carbon 
+lenia
 bebida
+lechuga
+mayonesa
