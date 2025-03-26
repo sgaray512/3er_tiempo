@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<!-- esto es un comentario-->
+<head>
+  <title>Ejemplo de página web</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Este es un ejemplo de página web">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="Nombre del autor">
+    <!--
+  <link rel="stylesheet" href="estilos.css">
+  <script src="scripts.js"></script>
+    -->
+</head>
+<body>
+  <header>
+    <h1>Título de la página</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <!--la etiqueta <a> es un hipervinculo es decir es para crear enlaces-->
+        <li><a href="#">Acerca de</a></li>
+        <li><a href="#">Contacto</a></li>
+        <!--El atributo href no solo se utiliza para enlazar a otras páginas web, sino que también se puede utilizar para enlazar a otros recursos como archivos de imagen, archivos PDF, etc. 
+-->
+        <a href="https://www.google.com/">Ir a Google</a>
+        <a href="rutaimg/foto.jpg">Ver foto</a>
+        <a href="rutaimg/imagen.jpg">Ver imagen</a>
+        <a href="https://www.facebook.com/ivan.escobar.5621">visita mi perfil</a>
+        
+      </ul>
+    </nav>
+  </header>
+  <!--          IMAGENES 
+  <img src="foto.jpg" alt="Descripción de la imagen">
+  <img src="imagen.jpg" alt="Descripción de la imagen">
+
+<img src="foto.jpg" alt="Descripción de la imagen" width="500" height="300">
+<img src="imagen.jpg" alt="Descripción de la imagen" width="500" height="300">
+-->
+  <!--el tamaño de la imagen aparecera en su calidad original, 
+  NUNCA debo CAMBIAR el TAMAÑO de la imagen por codigo es una practica pesima-->
+  <main>
+    <h2>Subtítulo 1</h2>
+    <p>Este es un párrafo de ejemplo.</p>
+    <a href="http://www.ejemplo.com">Enlace a otra página web</a>
+    <h2>Subtítulo 2</h2>
+    <p>Este es otro párrafo de ejemplo.</p>
+    <form action="procesar.php" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+  </main>
+  <footer>
+    <p>Derechos de autor © 2023. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
